@@ -1,0 +1,2 @@
+export const SAVE_SOCKET_IN_STORE = 'SAVE_SOCKET_IN_STORE';
+export const SET_CONNECTED = 'SET_CONNECTED';
