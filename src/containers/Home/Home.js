@@ -60,7 +60,8 @@ const Home = () => {
                     {
                         messages.map((m, i) => {
                             if(m.type === 'message'){
-                                return <li key={`message_${i}`}> From { m.from }: {m.message} </li>
+                                console.log(m);
+                                return <li key={`message_${i}`}> From { m.message.from }: {m.message.message} </li>
                             } else {
                                 return <li key={`message_${i}`}>  {m.user} se unió a la sala.</li>
                             }
